@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <div id="login_container">
+        <form id="login_form" method="POST">
+            <ul class="login">
+                <li>
+                    <label for="email">Email Address</label>
+                    <input name="email" type="email"/>
+                </li>
+                <li>
+                    <label for="password">Password</label>
+                    <input name="password" type="password"/>
+                </li>
+            </ul>
+            <button type="submit">Log In</button>
+        </form>
+    </div>
+  </body>
+</html>

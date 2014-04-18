@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <div id="signup_container">
+        <form id="signup_form" method="POST">
+            <ul class="signup">
+                <li>
+                    <label for="user_name">User Name</label>
+                    <input name="user_name" type="text"/>
+                </li>
+                <li>
+                    <label for="email">Email Address</label>
+                    <input name="email" type="email"/>
+                </li>
+                <li>
+                    <label for="password">Password</label>
+                    <input name="password" type="password"/>
+                </li>
+                <li>
+                    <label for="first_name">First Name</label>
+                    <input name="first_name" type="text"/>
+                </li>
+                <li>
+                    <label for="last_name">Last Name</label>
+                    <input name="last_name" type="text"/>
+                </li>
+                <li>
+                    <label for="gender">Gender</label>
+                    <select name="gender">
+                        <option selected="selected">Select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </li>
+            </ul>
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
+  </body>
+</html>

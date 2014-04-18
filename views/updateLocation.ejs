@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <div id="location_container">
+        <form id="location_form" method="POST">
+            <ul class="signup">
+                <li>
+                    <label for="user_name">User Name</label>
+                    <input name="user_name" type="text"/>
+                </li>
+                <li>
+                    <label for="lat">Latitude</label>
+                    <input name="lat" type="text"/>
+                </li>
+                <li>
+                    <label for="long">Longitude</label>
+                    <input name="long" type="text"/>
+                </li>
+            </ul>
+            <button type="submit">Update</button>
+        </form>
+    </div>
+  </body>
+</html>
